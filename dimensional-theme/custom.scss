@@ -1,0 +1,11 @@
+// Build CSS by running 'npm run scss'
+// The build process outputs 'custom.css'
+
+// Variable overrides replace the Bootstrap ones
+@import "_variable_overrides.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Override certain Boostrap components
+@import "_component_overrides.scss";
