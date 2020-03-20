@@ -1,0 +1,14 @@
+// Build CSS by running 'npm run scss'
+// The build process outputs 'dimensional-light-theme.css' in 'design-system/assets/css'
+
+// Variable overrides replace the Bootstrap ones
+@import "_dark_variable_overrides.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Override certain Boostrap components
+@import "_component_overrides.scss";
+
+// Multiselect
+@import "_multiselect.scss";

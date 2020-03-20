@@ -6,4 +6,4 @@
 
 ### How to build the CSS file
 1. Navigate to the root folder and run `npm run scss`. This command will watch any changes made in '/dimensional-theme' and compile a CSS file.
-2. The output file is 'custom.css' in '/design-system/assets/css'
+2. The output file is 'dimensional-light-theme.css' in '/design-system/assets/css'

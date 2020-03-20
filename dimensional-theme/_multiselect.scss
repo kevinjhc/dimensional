@@ -1,0 +1,72 @@
+// Multiselect =================================================================
+
+span.multiselect-native-select{
+  position:relative;
+  width: 100%;
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+
+span.multiselect-native-select select{
+  border :0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px -1px -1px -3px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  left: 50%;
+  top: 30px;
+}
+
+.multiselect-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    padding: 0;
+
+    &.multiselect-group label {
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      padding: 0.25rem 0.8rem;
+      font-weight: 700;
+      color: $gray-600;
+      text-transform: uppercase;
+
+      b {
+        font-size: 80%;
+      }
+    }
+
+    &.multiselect-group-clickable label {
+      cursor: pointer;
+    }
+
+    > a {
+      padding: 0;
+
+      > label {
+        margin: 0;
+        height: 100%;
+        cursor: pointer;
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.25rem 0.8rem 0.25rem 24px;
+        font-weight: 300;
+        color: $gray-900 !important;
+        text-transform: none;
+
+        &:hover {
+          background-color: $gray-100;
+        }
+      }
+    }
+  }
+}

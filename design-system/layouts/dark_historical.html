@@ -4,15 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/dimensional-dark-theme.css">
 
     <title>Dimensional Investing</title>
   </head>
   <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a href="#" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,17 +52,21 @@
         </ul>
       </div>
     </nav>
+    <!-- Navbar -->
 
+    <!-- Page Header -->
     <div class="page-header">
-      <div class="container-fluid d-flex w-100 justify-content-between align-items-center">
+      <div class="container-fluid d-flex w-100 justify-content-between">
         <div>
           <h4 class="mb-0">Historical Analysis</h4>
         </div>
       </div>
     </div>
+    <!-- Page Header -->
 
     <div class="container-fluid">
 
+      <!-- Tabs -->
       <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link" href="#"><span class="mdi mdi-filter-variant mdi-18px"></span></a>
@@ -73,17 +79,22 @@
           <a class="nav-link bg-primary" data-toggle="tab" href="#tab3"><span class="mdi mdi-plus text-white"></span></a>
         </li>
       </ul>
+      <!-- Tabs -->
+
       <div class="tab-content overflow-hidden">
+
+        <!-- Tab 1 -->
         <div class="tab-pane fade show active p-0" id="tab1">
 
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-3 shadow p-3" style="z-index: 100;">
+              <!-- Sidebar -->
+              <div class="col-md-3 shadow px-2 py-3" style="z-index: 100;">
                 <h6>Data Filters</h6>
 
                 <div class="form-group">
                   <label>Date Range</label>
-                  <div class="d-flex align-items-center">
+                  <div class="d-flex align-items-center position-relative">
                   <select class="form-control outline">
                     <option>10-2019 to 12-2019</option>
                   </select>
@@ -93,7 +104,7 @@
 
                 <div class="form-group">
                   <label>Portfolios</label>
-                  <div class="d-flex align-items-center">
+                  <div class="d-flex align-items-center position-relative">
                   <select class="form-control outline">
                     <option>2 portfolios selected</option>
                   </select>
@@ -105,7 +116,7 @@
 
                 <div class="form-group">
                   <label>Type of chart</label>
-                  <div class="d-flex align-items-center">
+                  <div class="d-flex align-items-center position-relative">
                   <select class="form-control outline">
                     <option>Country Weights</option>
                   </select>
@@ -115,7 +126,7 @@
 
                 <div class="form-group">
                   <label>Countries</label>
-                  <div class="d-flex align-items-center">
+                  <div class="d-flex align-items-center position-relative">
                   <select class="form-control outline">
                     <option>Japan</option>
                   </select>
@@ -126,10 +137,13 @@
                 <button type="button" class="btn btn-outline-secondary btn-block btn-sm">View in grid</button>
 
               </div>
+              <!-- Sidebar -->
+
+              <!-- Chart -->
               <div class="col-md-9 p-0">
                 <div class="p-3">
                   <h6 class="mb-4">Chart here</h6>
-                  <img class="img-fluid" src="assets/images/chart.png">
+                  <img class="img-fluid" src="../assets/images/chart_dark.png">
                 </div>
 
                 <table class="table table-hover table-responsive table-bordered border-right-0 border-left-0 border-bottom-0 mt-3 mb-0">
@@ -176,17 +190,20 @@
                 </table>
 
               </div>
+              <!-- Chart -->
             </div>
           </div>
 
         </div>
+        <!-- Tab 1 -->
+
       </div>
 
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.3.1.slim.min.js" ></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
   </body>
 </html>
