@@ -6393,7 +6393,7 @@ button.close:focus {
 
 .navbar {
   box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.1), 0 1px 0 0 #D2D2D0;
-  background: #F5F5F4;
+  background: #ffffff;
   padding: 0 0 0 12px; }
   .navbar a:focus {
     outline: 2px solid #007E87 !important;
