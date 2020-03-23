@@ -47,8 +47,8 @@ a {
 
     &:hover {
       background: transparent;
-      color: $primary-light;
-      border-color: $primary-light;
+      color: $btn-outline-secondary-hover;
+      border-color: $btn-outline-secondary-hover;
     }
 
     &:active, &:focus {
@@ -61,7 +61,7 @@ a {
 
   &.btn-link {
     @include hover {
-      color: $link-hover-color;
+      color: $btn-link-hover;
       text-decoration: none;
     }
 

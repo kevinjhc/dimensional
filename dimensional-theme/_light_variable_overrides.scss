@@ -85,6 +85,10 @@ $headings-font-family:        $font-family-serif !default;
 $headings-font-weight:        300 !default;
 $text-muted:                  $gray-600 !default;
 
+// Buttons
+$btn-outline-secondary-hover: $primary-light !default;
+$btn-link-hover:              $link-hover-color !default;
+
 // Navs
 $nav-tabs-border-radius:            0 !default;
 $nav-tabs-link-active-bg:           $white !default;
