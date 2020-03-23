@@ -13,3 +13,6 @@
 ### How to build the CSS file
 1. Navigate to the root folder and run `npm install` to install the node-sass package then run `npm run scss`. This command will watch any changes made in '/dimensional-theme' and compile the CSS files.
 2. The output files are in '/design-system/assets/css'
+
+### "Sentinel" font family
+- The Headings use "Sentinel". If the font files aren't included, the family defaults to Georgia or whichever serif font is default on the viewer's computer.

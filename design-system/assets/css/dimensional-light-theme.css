@@ -6470,10 +6470,11 @@ button.close:focus {
 .form-control {
   border: 1px solid #D2D2D0;
   font-size: 14px;
-  border-radius: 0; }
+  border-radius: 0;
+  z-index: 10; }
   .form-control.outline {
     border: 0;
-    padding: 0 0.5rem 0 0;
+    padding: 0;
     background-image: linear-gradient(0deg, #D2D2D0 1px, rgba(63, 81, 181, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0); }
     .form-control.outline:focus {
       box-shadow: none !important;
