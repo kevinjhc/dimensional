@@ -1,7 +1,7 @@
 {
   "_comment": "npm run scss",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "scss": "node-sass --watch dimensional-theme -o design-system/assets/css"
